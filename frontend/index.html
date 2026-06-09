@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Galindo - Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <span class="nav-logo">David Galindo</span>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero" id="hero">
+            <article class="hero-content">
+                <span>Disponible para trabajar</span>
+                <h1><span>Hola, soy </span>David Galindo</h1>
+                <p>
+                    Desarrollador web full-stack con foco en interfaces limpias y back-ends bien estructurados. 
+                    Me gusta construir productos completos, desde el diseño de la API hasta el detalle visual. 
+                    Actualmente buscando mi primer rol profesional donde seguir creciendo.
+                </p>
+                <div class="hero-btns">
+                    <a class="btn-secondary" href="assets/David Galindo Páramo CV.pdf" target="_blank">Ver CV</a>
+                </div>
+            </article>
+            <div class="avatar">DG</div>
+            <article class="stack-chips">
+                <p class="stack-label">Stack principal</p>
+                <div class="stack-container">
+                    <span class="chip hi">Node.js</span>
+                    <span class="chip hi">Express</span>
+                    <span class="chip hi">MongoDB</span>
+                    <span class="chip hi">JavaScript</span>
+                    <span class="chip">Lit / Web Components</span>
+                    <span class="chip">Vite</span>
+                    <span class="chip">CSS / Design tokens</span>
+                    <span class="chip">JWT</span>
+                    <span class="chip">Vercel · Render</span>
+                </div>
+            </article>
+        </section>
+        <section class="projects" id="projects">
+            <p class="projects-label">Proyectos</p>
+            <div class="projects-cards">
+                <article class="project-card">
+                    <img src="assets/hostelio.png" alt="Hostelio">
+                    <h3>Hostelio</h3>
+                    <p>
+                        Hostelio es una aplicación web full-stack que permite a propietarios de negocios registrar, visualizar y 
+                        analizar sus gastos operativos de forma sencilla y eficiente.
+                        Ofrece un dashboard interactivo con estadísticas mensuales, gráficos de evolución de gastos, 
+                        tabla de registros filtrable y una gestión completa de cuenta de usuario con autenticación segura mediante JWT.
+                    </p>
+                    <div class="project-chips">
+                        <span class="project-chip">Node.js</span>
+                        <span class="project-chip">MongoDB</span>
+                        <span class="project-chip">Lit</span>
+                        <span class="project-chip">Chart.js</span>
+                    </div>
+                    <div class="project-links">
+                        <a class="project-link" target="_blank" href="https://hostelio-beta.vercel.app/">Demo</a>
+                        <a class="project-link" target="_blank" href="https://github.com/davidglnd/Hostelio">Código</a>
+                    </div>
+                </article>
+                <!-- <article class="project-card">
+                    <img src="assets/barber.png" alt="Barber">
+                    <h3>Barberia</h3>
+                    <p>
+                        Barberia es una aplicación web full-stack que permite a los barberos gestionar sus citas, 
+                        ver el calendario de disponibilidad de los clientes y gestionar la agenda interna de la barberia.
+                        Mi primer proyecto fuera del bootcamp, desarrollado con Node.js, Express, MongoDB y Lit.
+                    </p>
+                    <div class="project-chips">
+                        <span class="project-chip">Node.js</span>
+                        <span class="project-chip">MongoDB</span>
+                        <span class="project-chip">Lit</span>
+                    </div>
+                    <div class="project-links">
+                        <a class="project-link" target="_blank" href="https://barber-rivera-82.netlify.app/">Demo</a>
+                        <a class="project-link" target="_blank" href="https://github.com/davidglnd/rivera-barber-82">Código</a>
+                    </div>
+                </article> -->
+            </div>
+        </section>
+        <section class="contact-info" id="contact">
+            <p class="contact-label">Contacto</p>
+            <div class="contact-chips">
+                <a class="contact-chip" href="mailto:david.galind.dgp@gmail.com">Email</a>
+                <a class="contact-chip" target="_blank" href="https://www.linkedin.com/in/david-galindo-p%C3%A1ramo/">LinkedIn</a>
+                <a class="contact-chip" target="_blank" href="https://github.com/davidglnd">GitHub</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <span>David Galindo - 2026</span>
+        <a class="footer-scroll" href="#hero">Volver arriba</a>
+    </footer>
+</body>
+</html>
