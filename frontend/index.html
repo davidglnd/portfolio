@@ -5,21 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>David Galindo - Portfolio</title>
     <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
 </head>
 <body>
     <header>
         <span class="nav-logo">David Galindo</span>
         <nav>
             <ul class="nav-links">
+                <li><a href="#about">Sobre mi</a></li>
                 <li><a href="#projects">Proyectos</a></li>
                 <li><a href="#contact">Contacto</a></li>
+                <li><a href="assets/David Galindo Páramo CV.pdf" target="_blank">CV</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section class="hero" id="hero">
-            <article class="hero-content">
+            <div class="hero-content">
                 <span>Disponible para trabajar</span>
                 <h1><span>Hola, soy </span>David Galindo</h1>
                 <p>
@@ -30,7 +32,7 @@
                 <div class="hero-btns">
                     <a class="btn-secondary" href="assets/David Galindo Páramo CV.pdf" target="_blank">Ver CV</a>
                 </div>
-            </article>
+            </div>
             <div class="avatar">DG</div>
             <article class="stack-chips">
                 <p class="stack-label">Stack principal</p>
@@ -46,6 +48,14 @@
                     <span class="chip">Vercel · Render</span>
                 </div>
             </article>
+        </section>
+        <section class="about-me" id="about">
+            <p class="about-me-label">Sobre mí</p>
+            <p class="about-me-content">
+                Tengo 30 años y llevo un tiempo alejado del sector, pero el desarrollo web nunca dejó de ser lo mío. 
+                Estudié un Grado Superior en Desarrollo de Aplicaciones Web, y hace poco di el paso de hacer un bootcamp para ponerme al día. 
+                Desde entonces llevo meses construyendo proyectos personales reales, aprendiendo con cada uno y afinando un stack que ya siento como propio.
+            </p>
         </section>
         <section class="projects" id="projects">
             <p class="projects-label">Proyectos</p>
@@ -70,7 +80,7 @@
                         <a class="project-link" target="_blank" href="https://github.com/davidglnd/Hostelio">Código</a>
                     </div>
                 </article>
-                <!-- <article class="project-card">
+                <article class="project-card">
                     <img src="assets/barber.png" alt="Barber">
                     <h3>Barberia</h3>
                     <p>
@@ -84,10 +94,9 @@
                         <span class="project-chip">Lit</span>
                     </div>
                     <div class="project-links">
-                        <a class="project-link" target="_blank" href="https://barber-rivera-82.netlify.app/">Demo</a>
                         <a class="project-link" target="_blank" href="https://github.com/davidglnd/rivera-barber-82">Código</a>
                     </div>
-                </article> -->
+                </article>
             </div>
         </section>
         <section class="contact-info" id="contact">

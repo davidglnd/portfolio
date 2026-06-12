@@ -18,8 +18,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    padding: 1rem 2rem; 
+    padding: 1rem 2rem;
     border-bottom: 1px solid #378ADD;
     max-height: 10vh;
     background-color: #131B24;
@@ -37,14 +36,13 @@ header{
     gap: 20px;
 }
 
-.nav-links li> a {
+.nav-links li > a {
     color: #85B7EB;
     text-decoration: none;
 }
 /* Main */
 main{
-    padding: 20px;
-    padding: 1rem 2rem; 
+    padding: 1rem 2rem;
     margin: 0 auto;
     max-width: 80%;
 }
@@ -109,6 +107,7 @@ main{
     border-radius: 5px;
     font-weight: 500;
     cursor: pointer;
+    text-decoration: none;
     transition: background-color 0.3s ease;
 }
 
@@ -124,6 +123,7 @@ main{
     border-radius: 5px;
     font-weight: 500;
     cursor: pointer;
+    text-decoration: none;
     transition: background-color 0.3s ease;
 }
 
@@ -135,8 +135,8 @@ main{
     width: 110px; 
     height: 110px; 
     border-radius: 50%; 
-    background: #85B7EB ; 
-    border: 0.5px solid #E6F1FB ; 
+    background: #85B7EB; 
+    border: 0.5px solid #E6F1FB; 
     display: flex; 
     align-items: center; 
     justify-content: center; 
@@ -146,7 +146,7 @@ main{
     flex-shrink: 0; 
 }
 
-/*Main - Hero -Stack*/
+/*Main - Hero - Stack*/
 
 .stack-chips{
     display: flex;
@@ -162,7 +162,7 @@ main{
     color: #4A6A8A;
     margin-bottom: 0.75rem;
     font-weight: 500;
-    border-bottom: 1px solid #042C53 ;
+    border-bottom: 1px solid #042C53;
     padding-bottom: 0.5rem;
 }
 .stack-container{
@@ -183,6 +183,29 @@ main{
     color: #185FA5;
 }
 
+/*Main - About */
+.about-me{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 2rem 3rem;
+}
+
+.about-me-label{
+    font-size: 28px;
+    color: #378ADD;
+    margin-bottom: 0.75rem;
+    font-weight: 500;
+    border-bottom: 1px solid #042C53;
+    padding-bottom: 0.5rem;
+}
+
+.about-me-content{
+    font-size: 18px;
+    color: #85B7EB;
+    line-height: 1.7;
+}
+
 /*Main - Projects*/
 
 .projects{
@@ -198,7 +221,7 @@ main{
     color: #378ADD;
     margin-bottom: 0.75rem;
     font-weight: 500;
-    border-bottom: 1px solid #042C53 ;
+    border-bottom: 1px solid #042C53;
     padding-bottom: 0.5rem;
 }
 
@@ -297,7 +320,7 @@ main{
     color: #378ADD;
     margin-bottom: 0.75rem;
     font-weight: 500;
-    border-bottom: 1px solid #042C53 ;
+    border-bottom: 1px solid #042C53;
     padding-bottom: 0.5rem;
 }
 
@@ -330,8 +353,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    padding: 1rem 2rem; 
+    padding: 1rem 2rem;
     border-top: 1px solid #378ADD;
     max-height: 10vh;
     background-color: #131B24;
@@ -341,4 +363,5 @@ footer{
     color: #378ADD;
     cursor: pointer;
     font-weight: 500;
+    text-decoration: none;
 }
